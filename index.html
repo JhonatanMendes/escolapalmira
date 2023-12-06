@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Palmira</title>
+    <link rel="stylesheet" href="css/novoestilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="conteudo">
+        <header class="bg-primary">
+            <div class="row row-cols-sm-1 cabecalho text-center align-items-center">
+                <div class="col-md-4">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h4>Escola Municipal</h4>
+                    <h4>Palmira de Castro Machado</h4>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+                <div class="container-fluid">
+                    <a class="navbar-brand navbar-toggler" href="#">Página Principal</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu Principal</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-start align-items-center flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Início</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="noticias.html">Notícias</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Administrativo
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" href="#">Direção</a></li>
+                                        <li><a class="dropdown-item" href="#">Coordenação</a></li>
+                                        <li><a class="dropdown-item" href="secretaria.html">Secretaria</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Nossa Escola
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" href="#">História da Escola</a></li>
+                                        <li><a class="dropdown-item" href="#">Galeria de Fotos</a></li>
+                                        <li><a class="dropdown-item" href="#">Documentos</a></li>
+                                        <li><a class="dropdown-item" href="#">Contatos</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-1 mb-1" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                                <button class="btn btn-primary" type="submit">Pesquisar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="img/Slide1.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/Slide2.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item"  data-bs-interval="5000">
+                        <img src="img/Slide3.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="linha bg-primary"></div>
+
+            <section class="noticias">
+
+                <div class="titulo">Últimas Notícias</div>
+    
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="noticiaItem.html">
+                                <img src="img/noticia01.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Espaço Cultural</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/noticia.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a short card.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/noticia.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a short card.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/noticia.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a short card.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/noticia.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/noticia.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="botao">
+                    <a href="#" class="btn btn-primary btn-sm">Ver mais Notícias</a>
+                </div>
+            </section>
+
+            <div class="linha bg-primary"></div>
+
+            <section class="galeria">
+                <div class="titulo">Galeria de Fotos</div>
+      
+      
+                <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <!-- Button trigger modal -->
+                            <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="img/imagem1.jpg" class="card-img-top card-img-bottom" alt="...">
+                            </div>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <!-- <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div> -->
+                                        <div class="modal-body">
+                                            <img src="img/imagem1.jpg" alt="imagem" class="w-100">
+                                            <p class="text-center"><br>Primeira foto da escola.</p>
+                                        </div>
+                                        <!-- <img src="img/imagem1.jpg" alt="imagem" width="800"> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                <img src="img/imagem2.jpg" class="card-img-top card-img-bottom" alt="...">
+                            </div>
+                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="img/imagem2.jpg" alt="imagem" class="w-100">
+                                            <p class="text-center"><br>Segunda foto da escola.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                <img src="img/imagem3.jpg" class="card-img-top card-img-bottom" alt="...">
+                            </div>
+                            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="img/imagem3.jpg" alt="imagem" class="w-100">
+                                            <p class="text-center"><br>Terceira foto da escola.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                <img src="img/imagem4.jpg" class="card-img-top card-img-bottom" alt="...">
+                            </div>
+                            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="img/imagem4.jpg" alt="imagem" class="w-100">
+                                            <p class="text-center"><br>Terceira foto da escola.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                <img src="img/imagem5.jpg" class="card-img-top card-img-bottom" alt="...">
+                            </div>
+                            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="img/imagem5.jpg" alt="imagem" class="w-100">
+                                            <p class="text-center"><br>Terceira foto da escola.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                <img src="img/imagem6.jpg" class="card-img-top card-img-bottom" alt="...">
+                            </div>
+                            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="img/imagem6.jpg" alt="imagem" class="w-100">
+                                            <p class="text-center"><br>Terceira foto da escola.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="botao">
+                    <a href="#" class="btn btn-primary btn-sm">Ver mais Fotos</a>
+                </div>
+            </section>
+            
+            <div class="linha bg-primary"></div>
+
+            <section class="objetivo">
+                <div class="titulo">objetivos da escola municipal palmira de castro machado</div>
+
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis viverra erat, id elementum metus ornare at. Vestibulum et elit quis mauris pellentesque vulputate a vehicula dolor. In rutrum pellentesque elit sit amet facilisis. Integer felis ex, semper a leo vitae, pellentesque consectetur felis. Donec quam purus, bibendum euismod rhoncus a, pharetra nec augue. Etiam quis turpis sit amet nisl sagittis efficitur a vitae elit. Mauris vitae sapien et nisl consectetur sollicitudin. Praesent sit amet sem id urna ultrices placerat eu ut nunc. Aliquam erat volutpat. Ut tincidunt vitae ipsum sit amet auctor. Donec facilisis efficitur leo sit amet blandit. Ut rutrum, tortor at tristique elementum, eros dui dignissim nisi, vel imperdiet urna turpis in mi. Donec sit amet eros vestibulum, tristique lorem eu, bibendum purus. Suspendisse aliquam nec velit at ornare. Nunc facilisis orci ac nibh pulvinar, at rhoncus purus pulvinar. Nullam venenatis eu erat vitae placerat.</p>
+                <p class="">Morbi sit amet dictum est, consectetur hendrerit lectus. In fringilla velit arcu, quis eleifend libero ullamcorper at. Nulla lacus ex, lobortis non neque id, maximus pretium magna. Phasellus lacinia convallis tellus, pretium eleifend elit sollicitudin in. Etiam nisl quam, interdum non gravida et, vestibulum et risus. Curabitur libero augue, blandit in pulvinar eu, tincidunt sit amet orci. Vestibulum pulvinar pretium orci, vitae varius urna tristique eu. Ut luctus eros vel feugiat rhoncus. Fusce venenatis, augue nec accumsan vulputate, sapien mauris rhoncus eros, vitae finibus tellus massa ac velit. In a nisl non dolor ultrices commodo. Vivamus sagittis consectetur enim sit amet ornare.</p>
+                <p class="">Vivamus eu felis est. Vivamus faucibus ac sapien a dictum. Fusce ac pharetra dolor, non interdum dui. Quisque dictum lacus ut nulla blandit, mollis lobortis elit auctor. Mauris sodales non metus convallis accumsan. Nullam purus elit, maximus ut suscipit at, sodales id tortor. Cras sodales massa a neque tincidunt iaculis et quis massa. Ut viverra, enim vel vulputate elementum, massa turpis pulvinar ante, ut rutrum metus neque ac enim. Pellentesque volutpat, lacus ut hendrerit rutrum, ante tortor volutpat nisl, a rhoncus ipsum risus vel augue.</p>
+
+            </section>
+
+            <div class="linha bg-primary"></div>
+
+            <section class="row">
+                <div class="col endereco">
+                    <div>
+                        <p><strong>Endereço:</strong></p>
+                        <p>Rua Monte Sinai, 403,</p>
+                        <p>Profª Araceli Souto Maior,</p>
+                        <p>CEP 69.316-096,</p>
+                        <p>Boa Vista - RR</p>
+                    </div>
+                </div>
+                <div class="col mapa">
+                    <p><strong>Localização:</strong></p>
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.098549684976!2d-60.73434282500027!3d2.787175655271047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d93059a2ecea2a3%3A0x80012cc44e0c65e6!2sEscola%20Municipal%20Palmira%20Castro%20Machado%20%E2%80%93%20Edu.%20Infantil%20E%20Ens.%20Fundamental!5e0!3m2!1spt-BR!2sbr!4v1701271585355!5m2!1spt-BR!2sbr"  style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-primary">
+            <div class="row">
+                <div class="col intitucional text-center">
+                    <img src="img/logo.png" alt="Logo Palmira">
+                    <p>Escola Municipal Palmira de Castro Machado</p>
+                    <a href="#"><img src="img/instagram.svg" alt="instagram" class="insta"> Instagram</a>
+                </div>
+                <div class="col intitucional text-center">
+                    <img src="img/logo-pmbv.png" alt="Logo PMBV">
+                    <p>Prefeitura Municipal de Boa Vista</p>
+                    <a href="#"><img src="img/instagram.svg" alt="instagram" class="insta"> Instagram</a>
+                </div>
+            </div>
+            <div class="linha-footer"></div>
+            <div class="autor">Criado por Jhonatan Barbosa Mendes | 2023</div>
+        </footer>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

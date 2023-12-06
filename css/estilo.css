@@ -1,0 +1,92 @@
+.conteudo{
+    width: 1000px;
+    margin: auto;
+    background-color: #eee;
+}
+a{
+    text-decoration: none; 
+}
+.linha{
+    width: 70%;
+    height: 10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+section{
+    padding: 0 15px;
+}
+.titulo{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.botao{
+    padding-top: 20px;
+    text-align: center;
+}
+.objetivo p{
+    text-indent: 50px;
+}
+
+.dados{
+    display: flex;
+    justify-content: space-around;
+}
+.dados .lado1{
+    width: 40%;
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lado1 p{
+    margin: 0;
+}
+.dados .lado2{
+    width: 40%;
+    height: 400px;
+}
+.dados .lado2 div iframe{
+    width: 100%;
+    height: 320px;
+}
+
+footer{
+    background-color: #eee;
+    border-top: 1px solid #000;
+}
+
+.institucional{
+    display: flex;
+    justify-content: space-around;
+}
+.institucional div{
+    /* width: 30%; */
+    text-align: center;
+    padding: 20px 0;
+    color: #eee;
+    font-size: 20px;
+}
+.institucional img{
+    width: 150px;
+}
+
+.insta{
+    width: 40px !important;
+}
+
+.linha-footer{
+    margin: auto;
+    width: 95%;
+    height: 2px;
+    background-color: #ccc;
+}
+.autor{
+    text-align: center;
+    font-size: 16px;
+}

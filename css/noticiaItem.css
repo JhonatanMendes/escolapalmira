@@ -1,0 +1,30 @@
+.corpo .titulo{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 05px;
+}
+.corpo p{
+    text-indent: 50px;
+}
+.resumo{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+.imagemCorpo{
+    padding: 20px 0;
+    text-align: center;
+}
+.imagemCorpo img{
+    width: 100%;
+    max-width: 600px;
+}
+.maisNoticias{
+    margin-bottom: 30px;
+}
+.maisNoticias a{
+    color: #000;
+    text-decoration: none;
+}
+

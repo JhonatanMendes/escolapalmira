@@ -1,0 +1,10 @@
+.corpo .titulo{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.corpo a{
+    color: #000;
+    text-decoration: none;
+}

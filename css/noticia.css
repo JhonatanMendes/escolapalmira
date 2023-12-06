@@ -1,0 +1,40 @@
+.noticia .titulo{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 05px;
+}
+.noticia p{
+    text-indent: 50px;
+}
+section{
+    padding: 0 40px;
+}
+.resumo{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+
+.imagemNoticia{
+    padding: 20px 0;
+    text-align: center;
+}
+.imagemNoticia img{
+    width: 100%;
+    max-width: 600px;
+}
+.maisNoticias{
+    margin-bottom: 30px;
+}
+.maisNoticias a{
+    color: #000;
+    text-decoration: none;
+}
+.noticias a{
+    color: #000;
+    text-decoration: none;
+}
+.noticias p{
+    text-indent: 0 !important;
+}
